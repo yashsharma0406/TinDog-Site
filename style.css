@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Title Section */
+#title {
+  background-color: rgb(191, 127, 255);
+}
+
+#title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#title p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: lightgray;
+}
+
+#title img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Download Buttons Styling */
+#title .mt-4 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#title .btn {
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title .btn img {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Button text style */
+#title .btn span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Hover Effect for Buttons */
+#title .btn:hover {
+  transform: translateY(-5px);
+}
+
+#title .btn-outline-light {
+  border: 2px solid #ffffff;
+}
+
+#title .btn-outline-light:hover {
+  background-color: white;
+  color: #9e1fa9;
+}
+
+/* Features Section */
+#features .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#features .col-md-4 img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#features p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Testimonials Section */
+#testimonial {
+  background-color: #f8f9fa;
+}
+
+#testimonial h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#testimonial .lead {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#testimonial footer {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Pricing Section */
+#pricing .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#pricing .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#pricing .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#pricing .card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#pricing .btn {
+  background-color:
+}
